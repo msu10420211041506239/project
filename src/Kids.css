@@ -1,0 +1,14 @@
+#sx{
+    display:flex;
+     gap: 20px;
+
+    flex-wrap: wrap; 
+
+}
+#sy{
+  position: relative;
+  display:flex;
+  gap: 20px;
+  top: 50px;
+
+}

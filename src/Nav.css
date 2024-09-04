@@ -1,0 +1,10 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    background-color:rgb(216, 173, 181);
+    height: 60px;
+}
+#ab,#cd,#ef,#gh,#ij,#kl,#mn,#op{
+    padding: 20px;
+}
