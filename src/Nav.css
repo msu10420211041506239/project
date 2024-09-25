@@ -1,10 +1,38 @@
-ul{
+    ul {
     display: flex;
     justify-content: space-around;
-    list-style-type:none;
-    background-color:rgb(216, 173, 181);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     height: 60px;
-}
-#ab,#cd,#ef,#gh,#ij,#kl,#mn,#op{
+    background-color: pink
+  }
+  #ab,#cd,#ef,#gh,#ij,#kl,#mn,#op{
+    text-decoration: none ;
+  }
+  li {
     padding: 20px;
-}
+  }
+  
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    
+    li {
+      padding: 15px;
+      width: 100%; 
+      text-align: center;
+      border: 2px solid black;
+      
+    }
+  }
+  
+  @media (max-width: 480px) {
+    li {
+      padding: 10px;
+    }
+  }
+ 

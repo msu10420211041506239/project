@@ -13,6 +13,7 @@ const Login = () => {
         <li>We are collecting your feedback</li>
         <li>Languages:Tamil & English</li>
         <li>Satisfy the User needs</li>
+        <li>Limited Videos</li>
       </ol>
     </div>
   );
